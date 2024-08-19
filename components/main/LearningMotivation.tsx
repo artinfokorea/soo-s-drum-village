@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const MotivationTag = ({ label }: { label: string }) => {
   return (
-    <div className="bg-whitesmoke rounded-full py-3 px-8">
+    <div className="bg-whitesmoke rounded-full py-2 px-8">
       <span className="text-lg font-bold">{label}</span>
     </div>
   );
@@ -13,8 +13,8 @@ const MotivationTag = ({ label }: { label: string }) => {
 
 const LearningMotivation = () => {
   return (
-    <section className="max-w-screen-lg mx-auto py-20">
-      <div className="relative aspect-[3/1] h-[185px] mx-auto mb-20">
+    <section className="max-w-screen-lg mx-auto py-20 px-4">
+      <div className="relative aspect-[3/1] h-[88px] md:h-[185px] mx-auto mb-20">
         <Image src="/logo_with_title.png" alt="soo_logo" fill />
       </div>
       <div className="flex gap-4 justify-center my-8">
