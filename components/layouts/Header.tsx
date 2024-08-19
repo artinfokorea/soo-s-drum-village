@@ -19,8 +19,8 @@ const MenuItem = ({ href, label }: MenuItemProps) => {
 
 const Header = () => {
   return (
-    <header className="sticky left-0 top-0 z-50 bg-white px-4">
-      <div className=" max-w-screen-lg mx-auto flex justify-between">
+    <header className="sticky left-0 top-0 z-50 h-[62px] md:h-[90px] py-2 bg-white md:py-0 ">
+      <div className=" max-w-screen-lg mx-auto flex justify-between px-4">
         <div className="relative aspect-[3/1] h-[46px] md:h-[90px]">
           <Image
             src="/logo_with_title.png"
@@ -30,11 +30,11 @@ const Header = () => {
             priority
           />
         </div>
-        <div className="hidden md:flex items-center gap-8">
+        <nav className="hidden md:flex items-center gap-8">
           <MenuItem href="/about" label="소개" />
           <MenuItem href="/services" label="상담게시판" />
           <MenuItem href="/location" label="오시는길" />
-        </div>
+        </nav>
       </div>
     </header>
   );

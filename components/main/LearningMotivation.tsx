@@ -5,9 +5,9 @@ import Image from "next/image";
 
 const MotivationTag = ({ label }: { label: string }) => {
   return (
-    <div className="bg-whitesmoke rounded-full py-2 px-8">
-      <span className="text-lg font-bold">{label}</span>
-    </div>
+    <span className="text-base md:text-lg font-bold bg-whitesmoke rounded-full py-2 px-8">
+      {label}
+    </span>
   );
 };
 
@@ -17,7 +17,7 @@ const LearningMotivation = () => {
       <div className="relative aspect-[3/1] h-[88px] md:h-[185px] mx-auto mb-20">
         <Image src="/logo_with_title.png" alt="soo_logo" fill />
       </div>
-      <div className="flex gap-4 justify-center my-8">
+      <div className="flex flex-col items-center md:flex-row gap-4 justify-center my-8">
         <MotivationTag label={`"드럼은 어려워"`} />
         <MotivationTag label={`"드럼은 손과 발이 따로 움직여야해"`} />
         <MotivationTag label={`"난 음악을 해본 적이 없어"`} />

@@ -9,19 +9,24 @@ interface LessonCardProps {
 
 const LessonCard = ({ title, desc, src }: LessonCardProps) => {
   return (
-    <div className="flex-1">
-      <div className="relative h-[143px]">
+    <div className="w-40 sm:flex-1 flex-shrink-0">
+      <div className="relative h-[130px] md:h-[143px]">
         <Image
           src={src}
           alt="lesson_image"
           fill
           sizes="(max-width: 768px) 100px 180px, (max-width: 1200px) 200px, 200px"
+          className="rounded-t-xl"
         />
-        <span className="absolute bottom-2 left-3 text-white text-lg">
+        <span className="absolute bottom-10 md:bottom-2 left-3 text-white text-xl">
           {title}
         </span>
+        <div className="md:hidden absolute top-24 left-0 text-white font-light px-3 break-keep text-sm">
+          {desc}
+        </div>
       </div>
-      <div className="p-3 bg-black text-white rounded-b-xl sm:text-xs lg:text-sm font-light whitespace-pre-wrap">
+      <div className="bg-black h-[70px] rounded-b-xl md:hidden" />
+      <div className="hidden min-h-[84px] md:block p-3 bg-black text-white rounded-b-xl text-sm font-light whitespace-pre-wrap">
         {desc}
       </div>
     </div>

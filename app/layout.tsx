@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Khand } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/layouts/Header";
+import Footer from "@/components/layouts/Footer";
 
 const khand = Khand({
   subsets: ["latin"],
@@ -21,9 +22,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${khand.className} touch-manipulation  text-black`}>
+      <body
+        className={`${khand.className} touch-manipulation  text-black `}
+        style={{ backgroundColor: "#ffffff" }}
+      >
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
