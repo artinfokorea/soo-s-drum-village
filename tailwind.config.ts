@@ -27,7 +27,7 @@ const config: Config = {
       main: "#0064FF",
       grey: "#CBCBCB",
       whitesmoke: "#F0F0F0",
-      lightgray: "#D1D6DB",
+      lightgray: "#bdbdbd",
       primaryblue: "#3F51B5",
       primaryred: "#FF6C6A",
       lightgrey: "#eeebeb",

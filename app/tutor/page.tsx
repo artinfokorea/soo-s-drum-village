@@ -1,4 +1,5 @@
-import TutorInfo from "@/components/about/TutorInfo";
+import TutorInfo from "@/components/tutor/TutorInfo";
+import VideoPreview from "@/components/tutor/VideoPreview";
 import BannerContainer from "@/components/common/BannerContainer";
 import React from "react";
 
@@ -11,6 +12,7 @@ const page = () => {
         imgSrc="/img/about_bg.png"
       />
       <TutorInfo />
+      <VideoPreview />
     </main>
   );
 };
