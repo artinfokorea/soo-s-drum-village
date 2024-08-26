@@ -54,24 +54,22 @@ const FacilityDialog = ({ seletedFacility, close }: FacilityDialogProps) => {
                   fill
                   quality={100}
                   sizes="(max-width: 1024px) 100vw, 1024px"
-                  className="rounded px-8"
+                  className="rounded px-4 sm:px-12"
                 />
               </SwiperSlide>
             ))}
           </Swiper>
-
-          <button
-            className="absolute left-[-8px] md:left-32 top-1/2 transform -translate-y-1/2 z-10 p-2 rounded-full"
-            onClick={handlePrev}
-          >
-            <ChevronLeftIcon className="text-white h-12 md:h-20" />
-          </button>
-          <button
-            className="absolute right-[-8px] md:right-32 top-1/2 transform -translate-y-1/2 z-10 p-2 rounded-full"
-            onClick={handleNext}
-          >
-            <ChevronRightIcon className="text-white h-12 md:h-20" />
-          </button>
+          <div className="flex w-full max-w-5xl mx-auto justify-between absolute inset-x-0 top-1/2 -translate-y-1/2 z-10">
+            <button className="transform  rounded-full " onClick={handlePrev}>
+              <ChevronLeftIcon className="text-white h-8 md:h-12" />
+            </button>
+            <button
+              className="transform rounded-full transition-colors"
+              onClick={handleNext}
+            >
+              <ChevronRightIcon className="text-white h-8 md:h-12" />
+            </button>
+          </div>
         </DialogPanel>
       </div>
     </Dialog>
