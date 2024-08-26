@@ -30,7 +30,7 @@ const Footer = () => {
             <span className="hidden md:inline">|</span>
             <div>
               <span className="font-bold md:font-medium">전화</span>
-              <span>: 010-4020-7451</span>
+              <span>: 010-8797-4509</span>
             </div>
 
             <span className="hidden md:inline">|</span>
