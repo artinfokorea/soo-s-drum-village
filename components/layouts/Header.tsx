@@ -2,7 +2,8 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
+import MobileDropDown from "./MobileDropDown";
 
 interface MenuItemProps {
   href: string;
@@ -18,9 +19,11 @@ const MenuItem = ({ href, label }: MenuItemProps) => {
 };
 
 const Header = () => {
+  const [isBarOpen, setIsBarOpen] = useState(false);
+
   return (
     <header className="sticky left-0 top-0 z-50 h-[62px] md:h-[90px] py-2 bg-white md:py-0 ">
-      <div className=" max-w-screen-lg mx-auto flex justify-between px-4">
+      <div className=" max-w-screen-lg mx-auto flex justify-between px-4 items-center">
         <Link href="/">
           <div className="relative aspect-[3/1] h-[46px] md:h-[90px]">
             <Image
@@ -37,6 +40,10 @@ const Header = () => {
           <MenuItem href="/inquiry" label="상담게시판" />
           <MenuItem href="/direction" label="오시는길" />
         </nav>
+        <MobileDropDown
+          isBarOpen={isBarOpen}
+          handleBar={() => setIsBarOpen(!isBarOpen)}
+        />
       </div>
     </header>
   );

@@ -10,7 +10,7 @@ const Map = () => {
       <div className="mt-16 px-8 flex flex-col gap-12">
         <div className="flex items-center gap-4 md:gap-8 text-base md:text-lg">
           <DescriptionLabel title="주소" />
-          <p className="tracking-wider text-lg">
+          <p className="tracking-wider text-base md:text-lg">
             경기 군포시 산본로 323번길 16-31 한솔프라자 5층
           </p>
         </div>

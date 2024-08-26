@@ -6,7 +6,7 @@ interface DescriptionLabelProps {
 
 const DescriptionLabel = ({ title }: DescriptionLabelProps) => {
   return (
-    <p className="px-6 py-2 border-lightgray border rounded-full font-bold ">
+    <p className="px-6 py-2 border-lightgray border rounded-full font-bold whitespace-nowrap">
       {title}
     </p>
   );
