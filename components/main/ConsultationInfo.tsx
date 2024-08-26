@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const ConsultationInfo = () => {
@@ -15,9 +16,12 @@ const ConsultationInfo = () => {
             재미와 실력을 동시에 잡을수 있는 <br /> 수 드럼전문학원
           </h4>
           <div className="flex justify-end md:justify-start">
-            <button className="bg-black text-white text-base md:text-lg font-semibold py-[10px] px-7 rounded-full">
+            <Link
+              href="/inquiry"
+              className="bg-black text-white text-base md:text-lg font-semibold py-[10px] px-7 rounded-full"
+            >
               무료 상담받기
-            </button>
+            </Link>
           </div>
         </div>
         <Image

@@ -30,13 +30,13 @@ const Footer = () => {
             <span className="hidden md:inline">|</span>
             <div>
               <span className="font-bold md:font-medium">전화</span>
-              <span>: 010-0000-0000</span>
+              <span>: 010-4020-7451</span>
             </div>
 
             <span className="hidden md:inline">|</span>
             <div>
               <span className="font-bold md:font-medium">이메일</span>
-              <span>: drum@gmail.com</span>
+              <span>: 4504509@naver.com</span>
             </div>
           </div>
           <div className="tracking-wider flex flex-col md:flex-row gap-2">
