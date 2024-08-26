@@ -21,7 +21,7 @@ const LessonCard = ({ title, desc, src }: LessonCardProps) => {
         <span className="absolute bottom-10 md:bottom-2 left-3 text-white text-xl">
           {title}
         </span>
-        <div className="md:hidden absolute top-24 left-0 text-white font-light px-3 break-keep text-sm">
+        <div className="md:hidden absolute top-24 left-0 text-white  px-3 break-keep text-sm font-light">
           {desc}
         </div>
       </div>

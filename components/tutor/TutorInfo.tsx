@@ -11,7 +11,11 @@ const TutorInfo = () => {
       <div className="my-16 px-8">
         <div className="flex items-center gap-4">
           <h3 className="text-2xl font-bold tracking-wider">최성수</h3>
-          <button className="flex">
+          <a
+            href="https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjky&x_csa=%7B%22fromUi%22%3A%22kb%22%7D&pkid=1&os=14363698&qvt=0&query=%EC%B5%9C%EC%84%B1%EC%88%98%20%EB%93%9C%EB%9F%BC%EC%97%B0%EC%A3%BC%EC%9E%90"
+            target="_blank"
+            className="flex"
+          >
             <span className="text-lightgray relative font-semibold">
               프로필 자세히보기
               <img
@@ -20,7 +24,7 @@ const TutorInfo = () => {
                 className="absolute right-[-24px] top-1 h-3"
               />
             </span>
-          </button>
+          </a>
         </div>
         <div className="my-8 flex flex-col md:flex-row gap-12 md:gap-24">
           <div className="relative aspect-[4/5] md:w-[400px]">
