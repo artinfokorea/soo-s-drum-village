@@ -1,20 +1,8 @@
 import type { Metadata } from "next";
-import { Abhaya_Libre, Khand } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/layouts/Header";
 import Footer from "@/components/layouts/Footer";
-
-const khand = Khand({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
-  display: "swap",
-});
-
-export const abhayaLibre = Abhaya_Libre({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-  display: "swap",
-});
+import { khand } from "@/utils/font";
 
 export const metadata: Metadata = {
   title: "Create Next App",

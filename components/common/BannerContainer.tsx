@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { abhayaLibre } from "@/app/layout";
+import { abhayaLibre } from "@/utils/font";
 
 interface BannerContainerProps {
   imgSrc: string;
