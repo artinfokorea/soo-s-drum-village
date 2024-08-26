@@ -2,14 +2,12 @@
 
 import Image from "next/image";
 import React from "react";
+import InfoLabel from "../common/InfoLabel";
 
 const TutorInfo = () => {
   return (
     <section className="max-w-screen-lg mx-auto py-6 md:py-20 px-4">
-      <div className="flex flex-col gap-1">
-        <h3 className="text-2xl font-bold tracking-wider">강사 소개</h3>
-        <div className="border-lightgray border w-40 md:w-72" />
-      </div>
+      <InfoLabel title="강사 소개" />
       <div className="my-16 px-8">
         <div className="flex items-center gap-4">
           <h3 className="text-2xl font-bold tracking-wider">최성수</h3>
