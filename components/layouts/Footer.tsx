@@ -5,7 +5,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-white border-whitesmoke border-t-2 md:py-[60px] py-8 px-4">
+    <footer className="bg-white border-whitesmoke border-t-2 md:py-[60px] py-8 px-4 whitespace-nowrap">
       <div className="max-w-screen-lg mx-auto flex flex-col md:flex-row  md:gap-24 md:items-center">
         <div className="relative  h-[46px] md:h-[90px] md:ml-12 mb-8 md:mb-0 w-[140px] md:w-[270px]">
           <Image

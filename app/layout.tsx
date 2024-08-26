@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Khand } from "next/font/google";
+import { Abhaya_Libre, Khand } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/layouts/Header";
 import Footer from "@/components/layouts/Footer";
@@ -7,7 +7,13 @@ import Footer from "@/components/layouts/Footer";
 const khand = Khand({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"],
-  variable: "--font-khand",
+  display: "swap",
+});
+
+export const abhayaLibre = Abhaya_Libre({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -23,7 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${khand.className} touch-manipulation  text-black `}
+        className={`${khand.className} touch-manipulation  text-black  `}
         style={{ backgroundColor: "#ffffff" }}
       >
         <Header />
