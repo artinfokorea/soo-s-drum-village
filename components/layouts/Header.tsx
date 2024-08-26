@@ -34,8 +34,8 @@ const Header = () => {
         </Link>
         <nav className="hidden md:flex items-center gap-8">
           <MenuItem href="/tutor" label="소개" />
-          <MenuItem href="/services" label="상담게시판" />
-          <MenuItem href="/location" label="오시는길" />
+          <MenuItem href="/inquiry" label="상담게시판" />
+          <MenuItem href="/direction" label="오시는길" />
         </nav>
       </div>
     </header>
