@@ -40,7 +40,7 @@ const TutorInfo = () => {
             <li>현)수 드럼전문학원 원장</li>
             <li>전) SOO's Drum Village 대표</li>
             <li>전) Soulmix studio 대표</li>
-            <li>2002년 스탁과의 첫만남</li>
+            <li>2002년 스틱과의 첫만남</li>
             <li>2006년 충청남도 음악경연대회 대상</li>
             <li>2008년 충청남도 음악경연대회 대상</li>
             <li>2012년 인순이, 김장훈, SG워너비 등등 전국투어 콘서트 세션</li>
