@@ -53,7 +53,7 @@ const MobileDropDown = ({ handleBar, isBarOpen }: Props) => {
           >
             <MenuItems
               static
-              className="mobile-dropdown absolute left-0 top-12 z-30 mt-3 px-6 flex w-screen flex-col gap-3 bg-white  p-4 shadow-sm focus:outline-none"
+              className="mobile-dropdown absolute left-0 top-12 z-30 mt-3 px-6 flex w-screen flex-col gap-3 bg-white p-4 shadow-sm focus:outline-none"
             >
               <DropDownMenu href="/tutor" label="소개" />
               <DropDownMenu href="/inquiry" label="상담게시판" />
