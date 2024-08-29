@@ -12,28 +12,28 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "SOO's DRUM VILLAGE",
-  description: "SOO's DRUM VILLAGE",
+  title: "수 드럼전문학원",
+  description: "수 드럼전문학원",
   openGraph: {
-    title: "SOO's DRUM VILLAGE",
-    description: "SOO's DRUM VILLAGE",
-    url: "http://artinfokorea.com",
-    siteName: "ARTINFO",
+    title: "수 드럼전문학원",
+    description: "수 드럼전문학원",
+    url: "/img/lesson_college.png",
+    siteName: "수 드럼전문학원",
     locale: "ko-KR",
     type: "website",
     images: [
       {
-        url: "https://artinfo.s3.ap-northeast-2.amazonaws.com/prod/upload/1710/images/20240710/original/3jp88xoTO8r.1720575433094.png",
+        url: "/img/lesson_college.png",
         width: 380,
         height: 380,
-        alt: "아트인포-ARTINFO",
+        alt: "수 드럼전문학원",
       },
     ],
   },
   appleWebApp: {
     capable: true,
     statusBarStyle: "default",
-    title: "SOO's DRUM VILLAGE",
+    title: "수 드럼전문학원",
   },
 };
 

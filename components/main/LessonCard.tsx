@@ -26,7 +26,7 @@ const LessonCard = ({ title, desc, src }: LessonCardProps) => {
         </div> */}
       </div>
       {/* <div className="bg-black h-[70px] rounded-b-xl md:hidden" /> */}
-      <div className="min-h-[100px] md:block p-3 bg-black text-white rounded-b-xl text-sm font-light">
+      <div className="min-h-[105px] md:block p-3 bg-black text-white rounded-b-xl text-sm font-light">
         <p className="whitespace-pre-wrap">{desc}</p>
       </div>
     </div>

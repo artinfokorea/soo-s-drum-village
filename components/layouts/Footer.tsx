@@ -51,13 +51,6 @@ const Footer = () => {
               <span>: 123-45-67890</span>
             </div>
             <span className="hidden md:inline">|</span>
-            <div>
-              <span className="font-bold md:font-medium">
-                통신판매업신고번호
-              </span>
-              <span>: 제2021-서울강남-1234호</span>
-            </div>
-            <span></span>
           </div>
         </div>
       </div>

@@ -33,7 +33,7 @@ body {
 }
 
 /* ( 크롬, 사파리, 오페라, 엣지 ) 동작 */
-.scrollbar-hide:-webkit-scrollbar {
+.scrollbar-hide::-webkit-scrollbar {
   display: none;
 }
 
