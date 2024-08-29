@@ -10,7 +10,7 @@ interface FacilityCardProps {
 const FacilityCard = ({ facility, seleteFacility }: FacilityCardProps) => {
   return (
     <button
-      className="w-40 flex-shrink-0 sm:flex-1 aspect-[3/2] relative focus:outline-none"
+      className="w-44 flex-shrink-0 sm:flex-1 aspect-[3/2] relative focus:outline-none"
       onClick={() => seleteFacility(facility)}
     >
       <Image

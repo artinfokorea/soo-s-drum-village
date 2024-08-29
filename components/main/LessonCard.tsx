@@ -9,7 +9,7 @@ interface LessonCardProps {
 
 const LessonCard = ({ title, desc, src }: LessonCardProps) => {
   return (
-    <div className="w-40 sm:flex-1 flex-shrink-0">
+    <div className="w-44 sm:flex-1 flex-shrink-0">
       <div className="relative h-[130px] md:h-[143px] ">
         <Image
           src={src}
