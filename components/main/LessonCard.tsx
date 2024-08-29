@@ -18,16 +18,16 @@ const LessonCard = ({ title, desc, src }: LessonCardProps) => {
           sizes="(max-width: 768px) 100px 180px, (max-width: 1200px) 200px, 200px"
           className="rounded-t-xl"
         />
-        <span className="absolute bottom-10 md:bottom-2 left-3 text-white text-xl">
+        {/* <span className="absolute bottom-10 md:bottom-2 left-3 text-white text-xl">
           {title}
         </span>
         <div className="md:hidden absolute top-24 left-0 text-white  px-3 break-keep text-sm font-light">
           {desc}
-        </div>
+        </div> */}
       </div>
-      <div className="bg-black h-[70px] rounded-b-xl md:hidden" />
-      <div className="hidden min-h-[84px] md:block p-3 bg-black text-white rounded-b-xl text-sm font-light whitespace-pre-wrap">
-        {desc}
+      {/* <div className="bg-black h-[70px] rounded-b-xl md:hidden" /> */}
+      <div className="min-h-[100px] md:block p-3 bg-black text-white rounded-b-xl text-sm font-light">
+        <p className="whitespace-pre-wrap">{desc}</p>
       </div>
     </div>
   );

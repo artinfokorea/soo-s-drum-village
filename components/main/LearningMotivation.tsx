@@ -33,9 +33,9 @@ const LearningMotivation = () => {
         배우고 싶은 마음은 있지만, 선뜻 도전할 수 없었던 당신을 위해{" "}
         <strong>‘수 드럼전문학원’</strong>이 도와드리겠습니다.
       </p>
-      <p className="block text-center md:hidden">
+      <p className="block text-center md:hidden leading-relaxed">
         배우고 싶은 마음은 있지만, <br />
-        선뜻 도전할 수 없었던 <br /> 당신을 위해 <br />
+        선뜻 도전할 수 없었던 당신을 위해 <br />
         <strong>‘수 드럼전문학원’</strong>이 <br /> 도와드리겠습니다.
       </p>
     </section>

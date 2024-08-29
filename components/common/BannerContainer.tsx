@@ -11,7 +11,7 @@ interface BannerContainerProps {
 const BannerContainer = ({ imgSrc, imgAlt, title }: BannerContainerProps) => {
   return (
     <section className="w-full relative">
-      <div className="relative w-full aspect-[3/1] ">
+      <div className="relative w-full aspect-[3/1] md:h-[400px] ">
         <Image src={imgSrc} alt={imgAlt} fill />
       </div>
       <div className="absolute inset-0 flex items-center justify-center">
