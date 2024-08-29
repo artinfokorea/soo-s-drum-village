@@ -10,7 +10,7 @@ interface LessonCardProps {
 const LessonCard = ({ title, desc, src }: LessonCardProps) => {
   return (
     <div className="w-40 sm:flex-1 flex-shrink-0">
-      <div className="relative h-[130px] md:h-[143px]">
+      <div className="relative h-[130px] md:h-[143px] ">
         <Image
           src={src}
           alt="lesson_image"
@@ -18,6 +18,7 @@ const LessonCard = ({ title, desc, src }: LessonCardProps) => {
           sizes="(max-width: 768px) 100px 180px, (max-width: 1200px) 200px, 200px"
           className="rounded-t-xl"
         />
+        <div className="absolute h-[130px] md:hidden md:h-[143px] top-0 left-0 bg-black w-full opacity-40 rounded-t-xl" />
         <span className="absolute bottom-10 md:bottom-2 left-3 text-white text-xl">
           {title}
         </span>

@@ -23,7 +23,7 @@ const LearningMotivation = () => {
         <MotivationTag label={`"난 음악을 해본 적이 없어"`} />
         <MotivationTag label={`"난 타고난 박치야"`} />
       </div>
-      <p className="text-center hidden md:block text-lg leading-relaxed">
+      <p className="text-center hidden md:block text-lg leading-relaxed py-5">
         드럼을 시작할 수 없는 수많은 이유들을 듣고 고충을 해결해줘야 했습니다.
         하지만 제가 시작하고 재미를 붙여서 <br />
         연주해왔던 드럼은 어렵기만 하고 특별히 선택 받는 사람만이 다룰 수 있는
