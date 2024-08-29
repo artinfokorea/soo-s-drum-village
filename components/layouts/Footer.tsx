@@ -50,7 +50,6 @@ const Footer = () => {
               <span className="font-bold md:font-medium">사업자등록번호</span>
               <span>: 123-45-67890</span>
             </div>
-            <span className="hidden md:inline">|</span>
           </div>
         </div>
       </div>

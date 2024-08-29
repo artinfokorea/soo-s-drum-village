@@ -5,7 +5,7 @@ import LessonInfo from "@/components/main/LessonInfo";
 
 export default function Home() {
   return (
-    <main className="bg-white h-full pt-[20px]">
+    <main className="bg-white h-full">
       <ConsultationInfo />
       <LearningMotivation />
       <LessonInfo />

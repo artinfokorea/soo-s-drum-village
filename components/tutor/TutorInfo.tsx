@@ -6,7 +6,7 @@ import InfoLabel from "../common/InfoLabel";
 
 const TutorInfo = () => {
   return (
-    <section className="max-w-screen-lg mx-auto py-6 md:py-20 px-4">
+    <section className="max-w-screen-lg mx-auto py-6 md:py-20 px-4 mt-5 md:mt-0">
       <InfoLabel title="강사 소개" />
       <div className="my-16 px-8">
         <div className="flex items-center gap-4">

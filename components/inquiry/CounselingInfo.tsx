@@ -4,7 +4,7 @@ import DescriptionLabel from "../common/DescriptionLabel";
 
 const CounselingInfo = () => {
   return (
-    <section className="max-w-screen-lg mx-auto py-6 md:py-20 px-4">
+    <section className="max-w-screen-lg mx-auto py-6 md:py-20 px-4 mt-5 md:mt-0">
       <InfoLabel title="상담 안내" />
       <div className="mt-16 px-4 md:px-8 flex flex-col gap-12">
         <div className="flex items-center gap-4 md:gap-8 text-base md:text-lg">

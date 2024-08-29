@@ -6,7 +6,7 @@ import React from "react";
 
 const ConsultationInfo = () => {
   return (
-    <section className=" bg-whitesmoke h-[230px] md:h-[425px] py-8 md:py-[72px]">
+    <section className=" bg-whitesmoke h-[230px] md:h-[400px] py-8 md:py-[72px]">
       <div className="max-w-screen-md mx-auto flex md:justify-between items-center">
         <div className="flex flex-1 flex-col gap-4 md:gap-8 px-8">
           <h2 className="text-2xl md:text-4xl font-semibold">

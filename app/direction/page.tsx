@@ -4,7 +4,7 @@ import React from "react";
 
 const page = () => {
   return (
-    <main className="bg-white pt-[20px]">
+    <main className="bg-white">
       <BannerContainer
         title="MAP"
         imgAlt="about banner"
