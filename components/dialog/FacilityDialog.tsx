@@ -43,6 +43,8 @@ const FacilityDialog = ({ seletedFacility, close }: FacilityDialogProps) => {
               setSwiper(e);
             }}
             loop
+            grabCursor={true}
+            touchMoveStopPropagation={true}
           >
             {facilityList?.map((facility) => (
               <SwiperSlide
