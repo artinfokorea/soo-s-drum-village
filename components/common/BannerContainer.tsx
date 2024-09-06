@@ -12,7 +12,7 @@ const BannerContainer = ({ imgSrc, imgAlt, title }: BannerContainerProps) => {
   return (
     <section className="w-full relative">
       <div className="relative w-full aspect-[3/1] md:h-[400px] ">
-        <FallbackImage src={imgSrc} alt={imgAlt} fill />
+        <img src={imgSrc} alt={imgAlt} className="w-full h-full object-cover" />
       </div>
       <div className="absolute inset-0 flex items-center justify-center">
         <h2

@@ -1,5 +1,4 @@
 import React from "react";
-import FallbackImage from "../common/FallbackImage";
 
 interface LessonCardProps {
   title: string;
@@ -11,12 +10,11 @@ const LessonCard = ({ title, desc, src }: LessonCardProps) => {
   return (
     <div className="w-44 sm:flex-1 flex-shrink-0">
       <div className="relative h-36">
-        <FallbackImage
+        <img
           src={src}
           alt="lesson_image"
-          fill
           sizes="(max-width: 768px) 100px 180px, (max-width: 1200px) 200px, 200px"
-          className="rounded-t-xl"
+          className="rounded-t-xl object-cover w-full h-full"
         />
         <div className="absolute h-[145px] md:hidden  top-0 left-0 bg-black w-full opacity-40 rounded-t-xl" />
         <span className="absolute bottom-6 md:bottom-2 left-3 md:left-5 text-white text-xl">

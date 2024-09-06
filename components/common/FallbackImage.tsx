@@ -34,6 +34,7 @@ const FallbackImage = ({
     <Image
       src={src}
       alt={alt}
+      unoptimized
       width={width}
       height={height}
       placeholder="blur"

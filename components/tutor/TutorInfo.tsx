@@ -1,8 +1,5 @@
-"use client";
-
 import React from "react";
 import InfoLabel from "../common/InfoLabel";
-import FallbackImage from "../common/FallbackImage";
 
 const TutorInfo = () => {
   return (
@@ -28,10 +25,10 @@ const TutorInfo = () => {
         </div>
         <div className="my-8 flex flex-col md:flex-row gap-12 md:gap-24">
           <div className="relative aspect-[4/5] md:w-[400px]">
-            <FallbackImage
+            <img
               src="/img/tutor_img.png"
               alt="tutor_profile_img"
-              fill
+              className="rounded object-cover w-full h-full"
               sizes="(max-width: 768px) 240px 300px, 400px 500px"
             />
           </div>
