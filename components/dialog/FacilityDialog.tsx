@@ -37,6 +37,7 @@ const FacilityDialog = ({ seletedFacility, close }: FacilityDialogProps) => {
             spaceBetween={10}
             modules={[Pagination, Navigation]}
             initialSlide={initialSlide}
+            scrollbar={{ draggable: true }}
             navigation
             onSwiper={(e) => {
               setSwiper(e);
