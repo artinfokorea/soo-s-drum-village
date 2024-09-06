@@ -1,14 +1,14 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 import React from "react";
+import FallbackImage from "../common/FallbackImage";
 
 const PreviewCard = () => {
   return (
     <Link href="">
       <div className="relative aspect-[3/2]  ">
-        <Image
+        <FallbackImage
           src="/img/preview_1.png"
           alt="lesson_preview_img"
           fill

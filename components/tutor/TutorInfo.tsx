@@ -1,8 +1,8 @@
 "use client";
 
-import Image from "next/image";
 import React from "react";
 import InfoLabel from "../common/InfoLabel";
+import FallbackImage from "../common/FallbackImage";
 
 const TutorInfo = () => {
   return (
@@ -28,7 +28,7 @@ const TutorInfo = () => {
         </div>
         <div className="my-8 flex flex-col md:flex-row gap-12 md:gap-24">
           <div className="relative aspect-[4/5] md:w-[400px]">
-            <Image
+            <FallbackImage
               src="/img/tutor_img.png"
               alt="tutor_profile_img"
               fill

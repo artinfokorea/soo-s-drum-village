@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import Image from "next/image";
+import FallbackImage from "../common/FallbackImage";
 
 const MotivationTag = ({ label }: { label: string }) => {
   return (
@@ -15,7 +15,7 @@ const LearningMotivation = () => {
   return (
     <section className="max-w-screen-lg mx-auto py-20 px-4">
       <div className="relative aspect-[3/1] h-[88px] md:h-[185px] mx-auto mb-20">
-        <Image src="/logo_with_title.png" alt="soo_logo" fill />
+        <FallbackImage src="/logo_with_title.png" alt="soo_logo" fill />
       </div>
       <div className="flex flex-col items-center md:flex-row gap-4 justify-center my-8">
         <MotivationTag label={`"드럼은 어려워"`} />

@@ -1,6 +1,6 @@
 import { Facility } from "@/types";
-import Image from "next/image";
 import React from "react";
+import FallbackImage from "../common/FallbackImage";
 
 interface FacilityCardProps {
   facility: { id: number; src: string };
@@ -13,7 +13,7 @@ const FacilityCard = ({ facility, seleteFacility }: FacilityCardProps) => {
       className="w-44 flex-shrink-0 sm:flex-1 aspect-[3/2] relative focus:outline-none"
       onClick={() => seleteFacility(facility)}
     >
-      <Image
+      <FallbackImage
         src={facility.src}
         alt="facility_image"
         fill

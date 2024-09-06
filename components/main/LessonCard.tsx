@@ -1,5 +1,5 @@
-import Image from "next/image";
 import React from "react";
+import FallbackImage from "../common/FallbackImage";
 
 interface LessonCardProps {
   title: string;
@@ -11,7 +11,7 @@ const LessonCard = ({ title, desc, src }: LessonCardProps) => {
   return (
     <div className="w-44 sm:flex-1 flex-shrink-0">
       <div className="relative h-36">
-        <Image
+        <FallbackImage
           src={src}
           alt="lesson_image"
           fill

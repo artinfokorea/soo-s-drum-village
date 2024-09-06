@@ -1,8 +1,8 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import FallbackImage from "../common/FallbackImage";
 
 const ConsultationInfo = () => {
   return (
@@ -24,7 +24,7 @@ const ConsultationInfo = () => {
             </Link>
           </div>
         </div>
-        <Image
+        <FallbackImage
           src="/logo.png"
           alt="soo_logo"
           width={281}

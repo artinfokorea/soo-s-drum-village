@@ -1,6 +1,6 @@
 import React from "react";
-import Image from "next/image";
 import { abhayaLibre } from "@/utils/font";
+import FallbackImage from "./FallbackImage";
 
 interface BannerContainerProps {
   imgSrc: string;
@@ -12,7 +12,7 @@ const BannerContainer = ({ imgSrc, imgAlt, title }: BannerContainerProps) => {
   return (
     <section className="w-full relative">
       <div className="relative w-full aspect-[3/1] md:h-[400px] ">
-        <Image src={imgSrc} alt={imgAlt} fill />
+        <FallbackImage src={imgSrc} alt={imgAlt} fill />
       </div>
       <div className="absolute inset-0 flex items-center justify-center">
         <h2

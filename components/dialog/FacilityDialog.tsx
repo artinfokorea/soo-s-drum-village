@@ -1,5 +1,4 @@
 import { Dialog, DialogPanel } from "@headlessui/react";
-import Image from "next/image";
 import { Swiper, SwiperClass, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Pagination, Navigation } from "swiper/modules";
@@ -8,6 +7,7 @@ import { Facility } from "@/types";
 import { facilityList } from "../main/FacilityInfo";
 import ChevronRightIcon from "../icons/ChevronRightIcon";
 import ChevronLeftIcon from "../icons/ChevronLeftIcon";
+import FallbackImage from "../common/FallbackImage";
 
 interface FacilityDialogProps {
   seletedFacility: Facility;
@@ -48,7 +48,7 @@ const FacilityDialog = ({ seletedFacility, close }: FacilityDialogProps) => {
                 key={facility.id}
                 className="max-h-[750px] aspect-[3/2]"
               >
-                <Image
+                <FallbackImage
                   src={facility.src}
                   alt="facility image"
                   fill
