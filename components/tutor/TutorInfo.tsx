@@ -24,14 +24,13 @@ const TutorInfo = () => {
           </a>
         </div>
         <div className="my-8 flex flex-col md:flex-row gap-12 md:gap-24">
-          <div className="relative aspect-[4/5] md:w-[400px]">
-            <img
-              src="/img/tutor_img.jpeg"
-              alt="tutor_profile_img"
-              className="rounded object-cover w-full h-full"
-              sizes="(max-width: 768px) 240px 300px, 400px 500px"
-            />
-          </div>
+          <img
+            src="/img/tutor_img.jpeg"
+            alt="tutor_profile_img"
+            className="rounded object-fill aspect-[4/5] md:w-[400px]"
+            sizes="(max-width: 768px) 240px 300px, 400px 500px"
+          />
+
           <ol className="text-lg list-disc space-y-1">
             <li>서울예술대학교 실용음악과 드럼전공</li>
             <li>현)수 드럼학원 원장</li>
