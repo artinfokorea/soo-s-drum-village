@@ -53,6 +53,7 @@ const FacilityInfo = () => {
           <div className="hidden md:flex justify-end border border-grey rounded-lg">
             <button
               className="transform px-1 border-grey border-r-[1px]"
+              aria-label="prev_button"
               disabled={isBeginning}
               onClick={handlePrev}
             >
@@ -62,6 +63,7 @@ const FacilityInfo = () => {
             </button>
             <button
               className="transform px-1"
+              aria-label="next_button"
               disabled={isEnd}
               onClick={handleNext}
             >
