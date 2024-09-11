@@ -42,6 +42,7 @@ const FacilityDialog = ({ seletedFacility, close }: FacilityDialogProps) => {
             onSwiper={(e) => {
               setSwiper(e);
             }}
+            loop
             grabCursor={true}
             touchMoveStopPropagation={true}
           >
