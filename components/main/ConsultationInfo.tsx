@@ -9,7 +9,7 @@ const ConsultationInfo = () => {
             드럼에 관한 모든것
           </h2>
           <h4 className="text-base md:text-lg leading-relaxed">
-            재미와 실력을 동시에 잡을수 있는 <br /> 수 드럼전문학원
+            재미와 실력을 동시에 잡을수 있는 <br /> 수 드럼학원
           </h4>
           <div className="flex justify-end md:justify-start">
             <a

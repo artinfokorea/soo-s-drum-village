@@ -27,7 +27,7 @@ const Header = () => {
         <Link href="/">
           <div className="relative aspect-[3/1] h-[46px] md:h-[90px]">
             <Image
-              src="/logo_header.png"
+              src="/logo_with_title.png"
               alt="Soo Logo"
               fill
               sizes="(max-width: 768px) 220px 60px, 271px, 89px"

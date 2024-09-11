@@ -17,7 +17,7 @@ const LessonInfo = () => {
         <LessonCard
           title="입시 레슨"
           src="/img/lesson_college.png"
-          desc={`20년 이상의 입시 노하우를 가진 최고 합격율을 가진 수 드럼전문학원만의 시스템`}
+          desc={`20년 이상의 입시 노하우를 가진 최고 합격율을 가진 수 드럼학원만의 시스템`}
         />
         <LessonCard
           title="전문가 레슨"

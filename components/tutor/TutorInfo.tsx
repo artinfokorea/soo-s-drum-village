@@ -34,7 +34,7 @@ const TutorInfo = () => {
           </div>
           <ol className="text-lg list-disc space-y-1">
             <li>서울예술대학교 실용음악과 드럼전공</li>
-            <li>현)수 드럼전문학원 원장</li>
+            <li>현)수 드럼학원 원장</li>
             <li>전) SOO's Drum Village 대표</li>
             <li>전) Soulmix studio 대표</li>
             <li>2002년 스틱과의 첫만남</li>
@@ -48,7 +48,7 @@ const TutorInfo = () => {
             <li>2021년 30일 완성 나도드럼친다 중급-마스터편 총 4편 교재출간</li>
             <li>2022년 드럼초보자라면 꼭 해야만 하는연습 교재 출간</li>
             <li>2023년 세계여행</li>
-            <li>2024년 수 드럼전문학원 오픈</li>
+            <li>2024년 수 드럼학원 오픈</li>
           </ol>
         </div>
       </div>

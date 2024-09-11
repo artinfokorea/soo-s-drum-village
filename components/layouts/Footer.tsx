@@ -20,7 +20,7 @@ const Footer = () => {
           <div className="flex gap-2 flex-col md:flex-row">
             <div>
               <span className="font-bold md:font-medium">상호</span>
-              <span>: 수 드럼전문학원</span>
+              <span>: 수 드럼학원</span>
             </div>
             <span className="hidden md:inline">|</span>
             <div>
