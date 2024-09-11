@@ -42,7 +42,6 @@ const FacilityDialog = ({ seletedFacility, close }: FacilityDialogProps) => {
             onSwiper={(e) => {
               setSwiper(e);
             }}
-            loop
             grabCursor={true}
             touchMoveStopPropagation={true}
           >
@@ -57,7 +56,7 @@ const FacilityDialog = ({ seletedFacility, close }: FacilityDialogProps) => {
                   fill
                   quality={100}
                   sizes="(max-width: 1024px) 100vw, 1024px"
-                  className="rounded px-4 sm:px-12"
+                  className="rounded-lg px-4 sm:px-12"
                 />
               </SwiperSlide>
             ))}

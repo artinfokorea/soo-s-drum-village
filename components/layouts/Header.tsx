@@ -23,11 +23,11 @@ const Header = () => {
 
   return (
     <header className="sticky left-0 top-0 z-50 h-[62px] md:h-[90px] py-2 bg-white md:py-0 ">
-      <div className=" max-w-screen-lg mx-auto flex justify-between px-4 items-center">
+      <div className="max-w-screen-lg mx-auto flex justify-between px-4 items-center">
         <Link href="/">
           <div className="relative aspect-[3/1] h-[46px] md:h-[90px]">
             <Image
-              src="/logo_with_title.png"
+              src="/logo_header.png"
               alt="Soo Logo"
               fill
               sizes="(max-width: 768px) 220px 60px, 271px, 89px"

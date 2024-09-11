@@ -10,7 +10,7 @@ interface FacilityCardProps {
 const FacilityCard = ({ facility, seleteFacility }: FacilityCardProps) => {
   return (
     <button
-      className="w-44 flex-shrink-0 sm:flex-1 aspect-[3/2] relative focus:outline-none"
+      className="w-44 md:w-64 lg:w-60 flex-shrink-0 aspect-[3/2] focus:outline-none relative"
       onClick={() => seleteFacility(facility)}
     >
       <FallbackImage
@@ -18,6 +18,7 @@ const FacilityCard = ({ facility, seleteFacility }: FacilityCardProps) => {
         alt="facility_image"
         fill
         sizes="(max-width: 768px) 100px 180px, (max-width: 1200px) 200px, 200px"
+        className="rounded"
       />
     </button>
   );
