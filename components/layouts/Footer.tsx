@@ -45,11 +45,16 @@ const Footer = () => {
             <span> 경기 군포시 산본로 323번길 16-31 </span>
             <span>한솔프라자 502호</span>
           </div>
-          <div className="flex gap-2 flex-col md:flex-row tracking-wider">
-            <div>
-              <span className="font-bold md:font-medium">사업자등록번호</span>
-              <span>: 655-97-01599</span>
-            </div>
+          <div className="flex gap-2 tracking-wider">
+            <span className="font-bold md:font-medium">사업자등록번호</span>
+            <span>: 655-97-01599</span>
+          </div>
+          <div className="flex flex-col md:flex-row gap-2 tracking-wider">
+            <span className="font-bold md:font-medium">학원허가번호</span>
+            <span className="hidden md:inline">:</span>
+            <span className="whitespace-pre-line">
+              군포의왕교육지원청 신고 제2462호. 수드럼학원
+            </span>
           </div>
         </div>
       </div>
