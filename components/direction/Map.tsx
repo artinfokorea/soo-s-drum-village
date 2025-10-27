@@ -1,7 +1,17 @@
 import React from 'react';
 import InfoLabel from '../common/InfoLabel';
 import DescriptionLabel from '../common/DescriptionLabel';
-import KakaoMap from '../common/KakaoMap';
+import dynamic from 'next/dynamic';
+import { Spinner } from '../common/Loading';
+
+const KakaoMap = dynamic(() => import('../common/KakaoMap'), {
+  ssr: false,
+  loading: () => (
+    <div className="flex h-[400px] items-center justify-center">
+      <Spinner className="h-8 w-8" />
+    </div>
+  ),
+});
 
 const Map = () => {
   return (
