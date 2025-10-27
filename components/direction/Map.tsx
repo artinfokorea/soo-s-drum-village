@@ -24,9 +24,7 @@ const Map = () => {
             경기 군포시 산본로 323번길 16-31 한솔프라자 5층
           </p>
         </div>
-        <div className="flex items-center gap-4 md:gap-8 text-base md:text-lg">
-          test : {process.env.NEXT_PUBLIC_KAKAO_JAVASCRIPT_KEY}
-        </div>
+
         <div className="aspect-[2/1]">
           <KakaoMap />
         </div>
